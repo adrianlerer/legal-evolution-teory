@@ -1,0 +1,110 @@
+{
+  "model_name": "qwen2-7b-instruct",
+  "memory_type": "legal_evolution_argentina",
+  "max_memory_length": 15000,
+  "retrieval_top_k": 25,
+  "legal_domains": [
+    "constitucional",
+    "civil", 
+    "comercial",
+    "financiero",
+    "administrativo",
+    "procesal",
+    "penal",
+    "laboral",
+    "tributario",
+    "cambiario",
+    "bancario",
+    "ambiental",
+    "consumidor",
+    "inmobiliario"
+  ],
+  "temporal_analysis": {
+    "start_year": 1950,
+    "end_year": 2024,
+    "crisis_detection": true,
+    "velocity_tracking": true,
+    "acceleration_threshold": 2.0,
+    "key_periods": {
+      "pre_democratic": "1950-1983",
+      "transition": "1983-1991", 
+      "menem_reforms": "1991-1999",
+      "crisis_period": "1999-2003",
+      "kirchner_era": "2003-2015",
+      "macri_adjustment": "2015-2019",
+      "fernandez_current": "2019-2024"
+    }
+  },
+  "reality_filter": {
+    "enabled": true,
+    "primary_sources": [
+      "InfoLeg",
+      "SAIJ", 
+      "CSJN",
+      "Boletín Oficial",
+      "INDEC",
+      "BCRA",
+      "CNV",
+      "AFIP"
+    ],
+    "verification_threshold": 0.95,
+    "confidence_scoring": {
+      "primary_source_bonus": 0.15,
+      "multiple_sources_bonus": 0.10,
+      "temporal_consistency_bonus": 0.05,
+      "uncertainty_penalty": -0.20
+    }
+  },
+  "memorag_integration": {
+    "memory_index_path": "./legal_memory_index",
+    "chunk_size": 512,
+    "overlap_size": 50,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "similarity_threshold": 0.7,
+    "max_retrieved_chunks": 10
+  },
+  "legal_evolution_framework": {
+    "selection_types": [
+      "Acumulativa",
+      "Artificial", 
+      "Mixta"
+    ],
+    "origin_types": [
+      "Endogeno",
+      "Transplante",
+      "Hibrido"
+    ],
+    "success_levels": [
+      "Exitoso",
+      "Parcial",
+      "Fracaso",
+      "En_Desarrollo"
+    ],
+    "pressure_types": [
+      "Economica",
+      "Tecnologica", 
+      "Social",
+      "Politica",
+      "Crisis",
+      "Internacional"
+    ]
+  },
+  "enterprise_features": {
+    "api_integration": true,
+    "batch_processing": true,
+    "export_formats": ["json", "csv", "pdf"],
+    "visualization_engine": true,
+    "comparative_analysis": true,
+    "predictive_modeling": false,
+    "multi_language_support": ["es", "en"],
+    "audit_logging": true
+  },
+  "performance_optimization": {
+    "cache_enabled": true,
+    "cache_ttl_hours": 24,
+    "parallel_processing": true,
+    "max_workers": 4,
+    "memory_limit_gb": 8,
+    "gpu_acceleration": false
+  }
+}

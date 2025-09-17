@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "generated_at": "2025-09-17T19:53:59.730106",
+    "system": "Legal Evolution MemoRAG Lite",
+    "version": "1.0.0-lite",
+    "dataset_summary": {
+      "evolution_cases": 22,
+      "velocity_metrics": 40,
+      "transplant_cases": 0,
+      "crisis_periods": 24
+    }
+  },
+  "analyses": {
+    "velocity_analysis": {
+      "total_metrics": 40,
+      "legal_area": "All",
+      "velocity_summary": {
+        "periods_analyzed": 28,
+        "metric_types": {
+          "Reform_Frequency": 6,
+          "Innovation_Speed": 4,
+          "Legal_Emergency_Speed": 4,
+          "Reform_Cycle": 3,
+          "Codigo_Stability": 1,
+          "Major_Reforms": 1,
+          "Post_Unification": 1,
+          "Special_Laws": 1,
+          "Codigo_Lifespan": 1,
+          "Amparo_Cases": 1,
+          "Rights_Expansion": 1,
+          "BCRA_Communications": 1,
+          "Exchange_Controls": 1,
+          "Collective_Bargaining": 1,
+          "Remote_Work": 1,
+          "Regulatory_Agencies": 1,
+          "Deregulation_Attempts": 1,
+          "Procedure_Reforms": 1,
+          "Digital_Procedures": 1,
+          "Environmental_Cases": 1,
+          "Climate_Legislation": 1,
+          "Consumer_Protection": 1,
+          "Class_Actions": 1,
+          "Real_Estate_Innovation": 1,
+          "Proptech_Regulation": 1,
+          "Crypto_Regulation_Speed": 1,
+          "Crypto_Market_Growth": 1
+        },
+        "areas_covered": 15
+      },
+      "key_insights": [
+        "Frecuencia promedio de reformas: 5.75"
+      ]
+    },
+    "transplant_analysis": {
+      "total_transplants": 30,
+      "origin_country": "All",
+      "success_analysis": {
+        "High": 12,
+        "Partial": 8,
+        "Developing": 6,
+        "Failed": 4
+      },
+      "adaptation_patterns": {
+        "Moderate": 13,
+        "Significant": 9,
+        "Low": 4,
+        "Substantial": 3
+      },
+      "key_insights": [
+        "Tasa de éxito alto: 40.0%"
+      ]
+    },
+    "crisis_analysis": {
+      "total_crises": 24,
+      "crisis_type_filter": "All",
+      "impact_summary": {
+        "avg_acceleration": 3.579166666666667,
+        "max_acceleration": 6.7,
+        "severity_distribution": {
+          "Medium": 9,
+          "High": 9,
+          "Extreme": 4,
+          "Very High": 2
+        }
+      },
+      "key_insights": [
+        "Factor de aceleración promedio: 3.58"
+      ]
+    }
+  },
+  "sample_queries": [
+    {
+      "query": "¿Cómo evolucionó el fideicomiso en Argentina?",
+      "confidence": 0.85,
+      "relevant_cases": 2,
+      "analysis": {
+        "legal_areas_mentioned": [
+          "financiero",
+          "inmobiliario"
+        ],
+        "temporal_patterns": [
+          "19"
+        ],
+        "evolution_mechanisms": [],
+        "success_indicators": [
+          "exitoso"
+        ],
+        "crisis_indicators": []
+      }
+    },
+    {
+      "query": "¿Qué impacto tuvo la crisis de 2001 en la evolución legal?",
+      "confidence": 1.0,
+      "relevant_cases": 25,
+      "analysis": {
+        "legal_areas_mentioned": [
+          "cambiario",
+          "bancario"
+        ],
+        "temporal_patterns": [
+          "19",
+          "20"
+        ],
+        "evolution_mechanisms": [],
+        "success_indicators": [
+          "exitoso",
+          "parcial",
+          "fracaso"
+        ],
+        "crisis_indicators": []
+      }
+    },
+    {
+      "query": "¿Cuáles fueron los transplantes legales más exitosos?",
+      "confidence": 0.0,
+      "relevant_cases": 0,
+      "analysis": {
+        "legal_areas_mentioned": [],
+        "temporal_patterns": [],
+        "evolution_mechanisms": [],
+        "success_indicators": [],
+        "crisis_indicators": []
+      }
+    }
+  ]
+}
